@@ -94,7 +94,7 @@ update_script() {
 # 重启 AdGuard Home
 restart_adguard() {
     echo "正在重启 AdGuard Home 服务..."
-    if sudo systemctl restart "$ADGUARD_SERVICE"; then
+    if /etc/init.d/$ADGUARD_HOME_SERVICE restart; then
         echo "AdGuard Home 服务重启成功！"
     else
         echo "重启 AdGuard Home 服务失败，请检查服务名是否正确。"
