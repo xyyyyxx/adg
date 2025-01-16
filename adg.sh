@@ -3,7 +3,7 @@
 # 当前脚本版本
 SCRIPT_VERSION="1.0.0"
 # 远程脚本地址
-REMOTE_SCRIPT_URL="https://raw.githubusercontent.com/Jimmyzxk/adg/refs/heads/main/adg.sh"  # 替换为实际远程脚本地址
+REMOTE_SCRIPT_URL="https://github.com/xyyyyxx/adg/raw/refs/heads/main/adg.sh"  # 替换为实际远程脚本地址
 # 当前脚本路径
 CURRENT_SCRIPT_PATH="$0"
 # 快捷命令路径
